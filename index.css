@@ -1,0 +1,42 @@
+
+@font-face{
+    font-family: 'NewFont';
+    src: url('FlyFeatherdemoFancy.ttf');
+}
+p{
+    font-size: 1em;
+    
+    font-size: larger;
+  
+    font-style: normal;
+    /* text-transform: capitalize; */
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2em;
+  
+}
+/* p::first-line{
+font-family: 'NewFont';
+  font-weight: 600;
+    text-shadow: 1px 1px 8px #666666;
+} */
+p::first-letter{
+    font-family: 'NewFont';
+      font-weight: 600;
+        text-shadow: 1px 1px 8px #666666;
+    }
+p:hover{
+    color: green;
+}
+
+button:active{
+    background-color: red;
+}
+input:focus{
+    background-color: lawngreen;
+}
+td{
+    vertical-align: bottom;
+}
