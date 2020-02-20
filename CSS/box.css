@@ -1,9 +1,58 @@
+
+@font-face{
+    font-family: 'Abcd font';
+    src: url('Jennifer\ Ellis.ttf');
+}
+
+li{
+    display: inline;
+   padding: 3px;
+   padding-right: 7px;
+   padding-left: 7px;
+   cursor: pointer;
+   border-radius: 25px;
+}
+li:hover{
+    background-color: slateblue;
+    color: white;
+}
+
+ul{
+    width: 80%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin-left: auto;  
+    margin-right: auto;
+    text-align: center;
+}
 div{
     background-color: aquamarine;
-    max-width: 400px ;
+    height: 90px;
+        border-width: 2px;
+        border-color: red;
+        border-style: groove;
+        width: 80%;
+        border-top-color: seagreen;
+        border-right-color: steelblue;
+        border-bottom-style: dotted;
+        border-left-style: dashed;
+        margin: 12px;
+        padding: 12px;
+        margin-left: 25px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin: 25px auto 10px auto;
+    /* max-width: 400px ;
     max-height: 100px;
-    overflow: scroll;
+    overflow: scroll; */
+}
+.border{
+    border: 1px black solid;
+}
 
+p{
+    text-align: center  ;
 }
 
 td {

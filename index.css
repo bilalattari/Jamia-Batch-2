@@ -1,13 +1,12 @@
 
 @font-face{
     font-family: 'NewFont';
-    src: url('FlyFeatherdemoFancy.ttf');
+    src: url('Fontarian\ Sweet\ Heart.otf');
 }
 p{
     font-size: 1em;
-    
     font-size: larger;
-  
+  font-family:'NewFont' ;
     font-style: normal;
     /* text-transform: capitalize; */
     letter-spacing: 2px;
