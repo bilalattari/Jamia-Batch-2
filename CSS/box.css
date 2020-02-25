@@ -5,7 +5,7 @@
 }
 
 li{
-    display: inline;
+display: inline;
    padding: 3px;
    padding-right: 7px;
    padding-left: 7px;
@@ -13,22 +13,25 @@ li{
    border-radius: 25px;
 }
 li:hover{
-    background-color: slateblue;
+    background-color:violet;
     color: white;
 }
 
 ul{
     width: 80%;
+    /* position: fixed; */
+    left: 10%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 5px;
     margin-left: auto;  
     margin-right: auto;
     text-align: center;
+    background-color: turquoise;
 }
 div{
-    background-color: aquamarine;
-    height: 90px;
+    /* background-color: aquamarine; */
+    /* height: 90px;
         border-width: 2px;
         border-color: red;
         border-style: groove;
@@ -40,10 +43,10 @@ div{
         margin: 12px;
         padding: 12px;
         margin-left: 25px;
-        /* margin-left: auto;
-        margin-right: auto; */
+        margin-left: auto;
+        margin-right: auto;
         margin: 25px auto 10px auto;
-    /* max-width: 400px ;
+    max-width: 400px ;
     max-height: 100px;
     overflow: scroll; */
 }
@@ -52,7 +55,7 @@ div{
 }
 
 p{
-    text-align: center  ;
+    /* text-align: center  ; */
 }
 
 td {
@@ -60,3 +63,43 @@ td {
     max-width:200px ;
 }
 
+.position{
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    float: left;
+    margin-left: 12px;
+    border: 1px solid black;
+}
+.container{
+    width: 80%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.relative{
+    position: relative;
+    left: 5px;
+    top: 12px;
+}
+.absolute{
+    position: absolute;
+}
+.imageStyle{
+    height: 150px;
+    width: 30%;
+}
+.imageContainer{
+    clear: left;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.imageName{
+    position: absolute;
+    bottom: -163px;
+    color: white;
+}
+.imageStyle:hover{
+    opacity: 0.5;
+}

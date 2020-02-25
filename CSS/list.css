@@ -1,0 +1,32 @@
+
+ol{
+    list-style-type: upper-roman;
+    list-style-position: outside;
+    list-style: lower-alpha inside;
+    border: sandybrown 1px solid;
+    /* list-style-image: url('list.png'); */
+}
+li{
+    color: saddlebrown;
+    font-weight: bold;
+}
+
+table , td{
+    border: lightcoral 1px solid;
+    padding: 5px;
+    border-spacing :12px;
+    border-collapse: collapse;
+}
+
+input{
+    /* font-size: 5px; */
+    color: lightcoral   ;
+    border: 1px dashed red;
+    width: 200px;
+    /* height: 80px; */
+    /* background-color: lightcyan; */
+}
+
+input::placeholder{
+    color: red;
+}
